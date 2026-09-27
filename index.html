@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wafa Mzoughi | Ingénieure Génie Logiciel</title>
+    <meta name="description" content="Ingénieure en Génie Logiciel, développeuse Flutter / Full-Stack chez Jawhara Technologie : applications mobiles Flutter, APIs Laravel & Odoo, Angular, React, Node.js.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon_io/favicon.ico?v=2">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png?v=2">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png?v=2">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png?v=2">
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+    <meta name="theme-color" content="#0a0e12">
+
+    <!-- Open Graph -->
+    <meta property="og:url" content="https://wafamzoughi.github.io/MMPortfolio/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Wafa Mzoughi | Ingénieure Génie Logiciel">
+    <meta property="og:description" content="Développeuse Flutter / Full-Stack : applications mobiles, APIs REST, Laravel, Odoo, Angular, React, Node.js.">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Wafa Mzoughi | Ingénieure Génie Logiciel">
+    <meta name="twitter:description" content="Développeuse Flutter / Full-Stack : applications mobiles, APIs REST, Laravel, Odoo, Angular, React, Node.js.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+    <div class="progress" id="progress" aria-hidden="true"></div>
+    <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+
+    <a class="skip-link" href="#home">Skip to content</a>
+
+    <!-- ==================== NAV ==================== -->
+    <header class="nav" id="nav">
+        <div class="container nav__inner">
+            <a href="#home" class="brand" aria-label="Back to top">
+                <span class="brand__dot" aria-hidden="true"></span>
+                <span class="brand__name">Wafa</span><span class="brand__acc"> Mzoughi</span>
+            </a>
+
+            <nav class="nav__menu" id="nav-menu" aria-label="Primary">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active" data-link>Accueil</a></li>
+                    <li><a href="#about" class="nav__link" data-link>À propos</a></li>
+                    <li><a href="#experience" class="nav__link" data-link>Expérience</a></li>
+                    <li><a href="#stack" class="nav__link" data-link>Compétences</a></li>
+                    <li><a href="#work" class="nav__link" data-link>Projets</a></li>
+                    <li><a href="#education" class="nav__link" data-link>Formation</a></li>
+                    <li><a href="#contact" class="nav__link" data-link>Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav__actions">
+                <button class="icon-btn" id="theme-toggle" aria-label="Toggle color theme" title="Toggle theme">
+                    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4m11.4-11.4 1.4-1.4"/></svg>
+                    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+                </button>
+                <button class="icon-btn nav__toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ==================== HERO ==================== -->
+        <section class="hero" id="home">
+            <div class="hero__grid-bg" id="hero-grid" aria-hidden="true"></div>
+            <div class="orb orb--1" id="orb-1" aria-hidden="true"></div>
+            <div class="orb orb--2" id="orb-2" aria-hidden="true"></div>
+
+            <div class="container hero__layout">
+                <div class="hero__copy">
+                    <div class="status-pill reveal">
+                        <span class="pulse-dot" aria-hidden="true"></span>
+                        <span class="mono">Développeuse Web & Mobile | Flutter / Full-Stack · Monastir, Tunisie</span>
+                    </div>
+
+                    <h1 class="hero__title reveal" data-delay="1">
+                        Wafa<br><span class="accent">Mzoughi</span>
+                    </h1>
+
+                    <p class="hero__sub reveal" data-delay="2">
+                        Je conçois des applications mobiles Flutter et des plateformes web
+                        full-stack, de l'API au dernier pixel de l'interface.
+                    </p>
+
+                    <p class="hero__intro reveal" data-delay="3">
+                        Actuellement chez <strong>Jawhara Technologie</strong>, où je développe des
+                        applications mobiles Flutter (Android / iOS) et des backends avec
+                        <strong>Laravel</strong> et <strong>Odoo</strong> : authentification sécurisée,
+                        APIs REST, gestion des rôles et interfaces modernes suivant les bonnes
+                        pratiques Material Design.
+                    </p>
+
+                    <div class="hero__cta reveal" data-delay="4">
+                        <a href="#experience" class="btn btn--primary">
+                            Voir mon expérience
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+                        </a>
+                        <a href="assets/pdf/CV_WafaMzoughi.pdf" class="btn btn--ghost" download>
+                            CV <span class="mono dim">.pdf</span>
+                        </a>
+                    </div>
+
+                    <div class="hero__social reveal" data-delay="5">
+                        <a href="https://www.linkedin.com/in/mzoughi-wafa-2121b6266/" target="_blank" rel="noopener" class="mono-link">
+                            <span class="mono-link__tag">in</span> linkedin.com/in/mzoughi-wafa
+                        </a>
+                        <a href="https://github.com/wafamzoughi" target="_blank" rel="noopener" class="mono-link">
+                            <span class="mono-link__tag">gh</span> github.com/wafamzoughi
+                        </a>
+                    </div>
+
+                    <div class="hero__expertise reveal" data-delay="6">
+                        <span class="hero__expertise-label mono">expertise</span>
+                        <span class="hero__expertise-tags mono">
+                            flutter · dart · laravel · odoo · angular · react · node.js · rest api · postgresql · mongodb
+                        </span>
+                    </div>
+                </div>
+
+                <div class="hero__monitor reveal" data-delay="2" aria-hidden="true">
+                    <!-- Terminal window -->
+                    <div class="term">
+                        <div class="term__bar">
+                            <span class="term__dots"><i></i><i></i><i></i></span>
+                            <span class="term__title mono">flutter · build status</span>
+                            <span class="term__live mono"><span class="pulse-dot"></span>LIVE</span>
+                        </div>
+                        <div class="term__body mono" id="term-body">
+                            <div class="term__row"><span class="t-dim">$</span> flutter pub get</div>
+                            <div class="term__row t-dim">MODULE&nbsp;&nbsp;&nbsp;&nbsp;STATUS&nbsp;&nbsp;&nbsp;PLATEFORMES</div>
+                            <div class="term__row"><span class="t-ok">app</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-ok">running</span>&nbsp;&nbsp;android · ios</div>
+                            <div class="term__row t-dim">$</div>
+                            <div class="term__row"><span class="t-dim">$</span> php artisan migrate <span class="t-dim">--seed</span></div>
+                            <div class="term__row"><span class="t-ok">✓</span> migration terminée</div>
+                            <div class="term__row t-dim">$</div>
+                            <div class="term__row"><span class="t-dim">$</span> flutter build apk --release</div>
+                            <div class="term__row"><span class="t-ok">✓</span> build réussi · ready</div>
+                            <div class="term__row t-dim">$</div>
+                            <div class="term__row term__cursor"><span class="t-ok">✓</span> app opérationnelle <span class="t-cursor">▊</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Candlestick chart card -->
+                    <div class="chart">
+                        <div class="chart__head">
+                            <span class="mono chart__label">progression projets · 12 sem.</span>
+                            <span class="mono t-ok chart__delta">▲ en hausse</span>
+                        </div>
+                        <svg class="chart__svg" viewBox="0 0 320 120" preserveAspectRatio="none">
+                            <g class="chart__candles" id="candles">
+                                <rect x="12" y="86" width="10" height="14" rx="1"/>
+                                <rect x="12" y="92" width="2" height="40"/>
+                                <rect x="42" y="70" width="10" height="24" rx="1"/>
+                                <rect x="42" y="64" width="2" height="44"/>
+                                <rect x="72" y="76" width="10" height="18" rx="1"/>
+                                <rect x="72" y="82" width="2" height="34"/>
+                                <rect x="102" y="58" width="10" height="30" rx="1"/>
+                                <rect x="102" y="50" width="2" height="50"/>
+                                <rect x="132" y="64" width="10" height="22" rx="1"/>
+                                <rect x="132" y="70" width="2" height="40"/>
+                                <rect x="162" y="48" width="10" height="30" rx="1"/>
+                                <rect x="162" y="40" width="2" height="52"/>
+                                <rect x="192" y="56" width="10" height="22" rx="1"/>
+                                <rect x="192" y="60" width="2" height="38"/>
+                                <rect x="222" y="38" width="10" height="30" rx="1"/>
+                                <rect x="222" y="30" width="2" height="54"/>
+                                <rect x="252" y="46" width="10" height="24" rx="1"/>
+                                <rect x="252" y="50" width="2" height="42"/>
+                                <rect class="candle-last" x="282" y="26" width="10" height="32" rx="1"/>
+                                <rect class="candle-last" x="282" y="18" width="2" height="56"/>
+                            </g>
+                            <path class="chart__trend" d="M17 88 L47 72 L77 78 L107 60 L137 66 L167 50 L197 58 L227 40 L257 48 L287 28" fill="none"/>
+                            <line class="chart__grid" x1="0" y1="90" x2="320" y2="90"/>
+                            <line class="chart__grid" x1="0" y1="45" x2="320" y2="45"/>
+                        </svg>
+                        <div class="chart__foot mono">
+                            <span>tests <span class="t-ok">green</span></span>
+                            <span class="t-dim">·</span>
+                            <span>rythme de livraison <span class="t-ok">▲</span></span>
+                            <span class="t-dim">·</span>
+                            <span>ci/cd <span class="t-ok">online</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ticker tape -->
+            <div class="ticker" aria-hidden="true">
+                <div class="ticker__track">
+                    <span class="ticker__item mono">flutter build ios · <b class="t-ok">SUCCESS</b></span>
+                    <span class="ticker__sep">◆</span>
+                    <span class="ticker__item mono">php artisan test · <b class="t-ok">passed</b></span>
+                    <span class="ticker__sep">◆</span>
+                    <span class="ticker__item mono">git push origin main · <b class="t-ok">pushed</b></span>
+                    <span class="ticker__sep">◆</span>
+                    <span class="ticker__item mono">npm run build · <b class="t-ok">success</b></span>
+                    <span class="ticker__sep">◆</span>
+                    <span class="ticker__item mono">docker-compose up · <b class="t-ok">running</b></span>
+                    <span class="ticker__sep">◆</span>
+                    <span class="ticker__item mono">odoo-bin -u module · <b class="t-ok">updated</b></span>
+                    <span class="ticker__sep">◆</span>
+                    <span class="ticker__item mono">firebase deploy · <b class="t-ok">✓ live</b></span>
+                    <span class="ticker__sep">◆</span>
+                    <span class="ticker__item mono">flutter build ios · <b class="t-ok">SUCCESS</b></span>
+                    <span class="ticker__sep">◆</span>
+                    <span class="ticker__item mono">php artisan test · <b class="t-ok">passed</b></span>
+                    <span class="ticker__sep">◆</span>
+                    <span class="ticker__item mono">git push origin main · <b class="t-ok">pushed</b></span>
+                    <span class="ticker__sep">◆</span>
+                    <span class="ticker__item mono">npm run build · <b class="t-ok">success</b></span>
+                    <span class="ticker__sep">◆</span>
+                    <span class="ticker__item mono">docker-compose up · <b class="t-ok">running</b></span>
+                    <span class="ticker__sep">◆</span>
+                    <span class="ticker__item mono">odoo-bin -u module · <b class="t-ok">updated</b></span>
+                    <span class="ticker__sep">◆</span>
+                    <span class="ticker__item mono">firebase deploy · <b class="t-ok">✓ live</b></span>
+                    <span class="ticker__sep">◆</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== ABOUT ==================== -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section__head reveal reveal-blur" data-ghost="01">
+                    <span class="section__index mono">01</span>
+                    <div>
+                        <h2 class="section__title">À propos</h2>
+                        <p class="section__sub mono">whoami</p>
+                    </div>
+                </div>
+
+                <div class="about__grid">
+                    <div class="about__copy">
+                        <p class="lead reveal">Ingénieure Génie Logiciel, curieuse et toujours prête à apprendre.</p>
+                        <p class="reveal" data-delay="1">
+                            Mon travail couvre toute la stack : applications mobiles Flutter (Android / iOS),
+                            APIs REST sécurisées (JWT / Sanctum), backends Laravel et Odoo, interfaces web
+                            Angular et React, bases de données SQL et NoSQL. J'aime construire des produits
+                            complets, du modèle de données jusqu'à l'interface finale.
+                        </p>
+                        <p class="reveal" data-delay="2">
+                            Avant Jawhara Technologie, j'ai réalisé plusieurs stages de fin d'études : une
+                            marketplace multi-vendeur (ISS4U), une plateforme de centre de formation (Tanit-IT)
+                            et une application de gestion de maintenance à la SNCFT, en plus de projets
+                            personnels en e-commerce et développement de jeux.
+                        </p>
+
+                        <div class="about__stats reveal reveal-scale" data-delay="3">
+                            <div class="stat">
+                                <span class="stat__value mono" data-count="10" data-suffix="+">0+</span>
+                                <span class="stat__label">vendeurs sur la marketplace</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat__value mono" data-count="200" data-suffix="+">0+</span>
+                                <span class="stat__label">produits testés</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat__value mono">100+</span>
+                                <span class="stat__label">pannes suivies (GMAO)</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat__value mono">-30%</span>
+                                <span class="stat__label">délais de réparation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <aside class="about__side">
+                        <div class="card reveal" data-delay="2">
+                            <div class="card__head mono"><span class="t-ok">●</span> centres d'intérêt</div>
+                            <div class="tags">
+                                <span class="tag mono">Développement Mobile</span>
+                                <span class="tag mono">Flutter</span>
+                                <span class="tag mono">APIs REST</span>
+                                <span class="tag mono">Laravel &amp; Odoo</span>
+                                <span class="tag mono">Angular / React</span>
+                                <span class="tag mono">UX / Material Design</span>
+                                <span class="tag mono">Bases de données</span>
+                                <span class="tag mono">Agile / Scrum</span>
+                            </div>
+                        </div>
+
+                        <div class="card reveal" data-delay="3">
+                            <div class="card__head mono"><span class="t-ok">●</span> mission</div>
+                            <p class="card__text">
+                                Construire des applications fiables et agréables à utiliser, en respectant
+                                les bonnes pratiques, et continuer à apprendre à chaque projet.
+                            </p>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- Marquee band -->
+        <div class="marquee-wrap" aria-hidden="true">
+            <div class="marquee">
+                <div class="marquee__track">
+                    <span class="marquee__group">
+                        <span class="marquee__item">Flutter</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Dart</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Laravel</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Odoo</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Angular</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">React</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Node.js</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Spring Boot</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">PostgreSQL</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">MongoDB</span><span class="marquee__sep">◆</span>
+                    </span>
+                    <span class="marquee__group">
+                        <span class="marquee__item">Flutter</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Dart</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Laravel</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Odoo</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Angular</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">React</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Node.js</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Spring Boot</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">PostgreSQL</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">MongoDB</span><span class="marquee__sep">◆</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== EXPERIENCE ==================== -->
+        <section class="section section--alt" id="experience">
+            <div class="container">
+                <div class="section__head reveal reveal-blur" data-ghost="02">
+                    <span class="section__index mono">02</span>
+                    <div>
+                        <h2 class="section__title">Expérience</h2>
+                        <p class="section__sub mono">4 expériences · 2022 - présent</p>
+                    </div>
+                </div>
+
+                <div class="timeline">
+
+                    <!-- Jawhara Technologie -->
+                    <article class="job reveal reveal-left">
+                        <div class="job__rail">
+                            <span class="job__dot" aria-hidden="true"></span>
+                            <span class="job__status mono">NOW</span>
+                        </div>
+                        <div class="job__body">
+                            <div class="job__head">
+                                <div>
+                                    <h3 class="job__title">Développeuse Flutter / Full-Stack</h3>
+                                    <p class="job__org">Jawhara Technologie</p>
+                                </div>
+                                <div class="job__meta mono">
+                                    <span>Masakin, Tunisie</span>
+                                    <span>Depuis sept. 2025 (1 an)</span>
+                                </div>
+                            </div>
+
+                            <p class="job__desc">
+                                Conception et développement d'applications mobiles et de backends, du modèle
+                                de données à l'interface finale.
+                            </p>
+
+                            <ul class="job__list">
+                                <li>Conception et développement d'applications mobiles <strong>Flutter</strong> (Android / iOS) avec interfaces modernes et responsives</li>
+                                <li>Intégration d'API REST et mise en place de l'authentification sécurisée (<strong>JWT / Sanctum</strong>)</li>
+                                <li>Développement de backends avec <strong>Laravel</strong> et <strong>Odoo</strong> (modules, API, ORM)</li>
+                                <li>Gestion complète des fonctionnalités CRUD, rôles utilisateurs, pagination et validation des données</li>
+                                <li>Optimisation des performances et respect des bonnes pratiques Flutter / Material Design</li>
+                            </ul>
+
+                            <div class="tags job__tags">
+                                <span class="tag mono">Flutter</span><span class="tag mono">Dart</span><span class="tag mono">Firebase</span><span class="tag mono">REST API</span><span class="tag mono">Laravel</span><span class="tag mono">PHP</span><span class="tag mono">Odoo</span><span class="tag mono">Python</span><span class="tag mono">PostgreSQL</span><span class="tag mono">Git</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- ISS4U -->
+                    <article class="job reveal reveal-left">
+                        <div class="job__rail">
+                            <span class="job__dot" aria-hidden="true"></span>
+                            <span class="job__status mono">STAGE PFE</span>
+                        </div>
+                        <div class="job__body">
+                            <div class="job__head">
+                                <div>
+                                    <h3 class="job__title">Conception d'une marketplace multi-vendeur</h3>
+                                    <p class="job__org">ISS4U</p>
+                                </div>
+                                <div class="job__meta mono">
+                                    <span>Tunisie</span>
+                                    <span>Fév. - juil. 2025 (5 mois)</span>
+                                </div>
+                            </div>
+
+                            <p class="job__desc">
+                                Conception et développement d'une application web marketplace multi-vendeur
+                                avec espace client, espace administrateur et espace vendeur : gestion de
+                                produits, commandes, livraisons et paiements en ligne sécurisés via Stripe.
+                            </p>
+
+                            <ul class="job__list">
+                                <li>Application ayant permis à <strong>plus de 10 vendeurs</strong> de publier et gérer leurs produits</li>
+                                <li><strong>+200 produits testés</strong> lors de la phase de validation</li>
+                                <li>Paiements en ligne sécurisés intégrés via Stripe</li>
+                            </ul>
+
+                            <div class="tags job__tags">
+                                <span class="tag mono">Angular</span><span class="tag mono">Spring Boot</span><span class="tag mono">MariaDB</span><span class="tag mono">Stripe</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Tanit-IT -->
+                    <article class="job reveal reveal-left">
+                        <div class="job__rail">
+                            <span class="job__dot" aria-hidden="true"></span>
+                            <span class="job__status mono">STAGE</span>
+                        </div>
+                        <div class="job__body">
+                            <div class="job__head">
+                                <div>
+                                    <h3 class="job__title">Plateforme pour un centre de formation</h3>
+                                    <p class="job__org">Tanit-IT</p>
+                                </div>
+                                <div class="job__meta mono">
+                                    <span>Monastir, Tunisie</span>
+                                    <span>Juil. - sept. 2024 (2 mois)</span>
+                                </div>
+                            </div>
+
+                            <ul class="job__list">
+                                <li>Conception et développement d'une plateforme complète pour un centre de formation</li>
+                                <li>Comprenant un espace administratif, un espace élève, un espace enseignant et un espace parent</li>
+                            </ul>
+
+                            <div class="tags job__tags">
+                                <span class="tag mono">MongoDB</span><span class="tag mono">Express</span><span class="tag mono">React</span><span class="tag mono">Node.js</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- SNCFT -->
+                    <article class="job job--last reveal reveal-right">
+                        <div class="job__rail">
+                            <span class="job__dot" aria-hidden="true"></span>
+                            <span class="job__status mono">STAGE PFE</span>
+                        </div>
+                        <div class="job__body">
+                            <div class="job__head">
+                                <div>
+                                    <h3 class="job__title">Application GMAO sous Excel</h3>
+                                    <p class="job__org">Société Nationale de Chemin de Fer Tunisienne</p>
+                                </div>
+                                <div class="job__meta mono">
+                                    <span>Sousse, Tunisie</span>
+                                    <span>Fév. - mai 2022 (3 mois)</span>
+                                </div>
+                            </div>
+
+                            <ul class="job__list">
+                                <li>Réalisation d'une application de gestion de maintenance assistée par ordinateur (GMAO) sous Excel</li>
+                                <li>Suivi de <strong>plus de 100 pannes</strong> de métro</li>
+                                <li><strong>Réduction estimée de 30 %</strong> des délais de réparation grâce à l'automatisation du reporting</li>
+                            </ul>
+
+                            <div class="tags job__tags">
+                                <span class="tag mono">Excel</span><span class="tag mono">VBA</span><span class="tag mono">Reporting</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== STACK ==================== -->
+        <section class="section" id="stack">
+            <div class="container">
+                <div class="section__head reveal reveal-blur" data-ghost="03">
+                    <span class="section__index mono">03</span>
+                    <div>
+                        <h2 class="section__title">Compétences Techniques</h2>
+                        <p class="section__sub mono">toolchain · ce que j'utilise en production</p>
+                    </div>
+                </div>
+
+                <div class="stack__grid">
+                    <div class="card stack-card tilt reveal reveal-scale">
+                        <div class="card__head mono">développement mobile</div>
+                        <div class="tags"><span class="tag mono">Flutter</span><span class="tag mono">Dart</span><span class="tag mono">Firebase</span><span class="tag mono">REST API</span></div>
+                    </div>
+                    <div class="card stack-card tilt reveal reveal-scale" data-delay="1">
+                        <div class="card__head mono">développement frontend</div>
+                        <div class="tags"><span class="tag mono">Angular</span><span class="tag mono">React.js</span><span class="tag mono">JavaScript</span><span class="tag mono">TypeScript</span><span class="tag mono">HTML/CSS</span><span class="tag mono">Bootstrap</span></div>
+                    </div>
+                    <div class="card stack-card tilt reveal reveal-scale" data-delay="2">
+                        <div class="card__head mono">développement backend</div>
+                        <div class="tags"><span class="tag mono">Laravel</span><span class="tag mono">PHP</span><span class="tag mono">WordPress</span><span class="tag mono">Odoo</span><span class="tag mono">Spring Boot</span><span class="tag mono">Java</span><span class="tag mono">Node.js</span><span class="tag mono">Express.js</span><span class="tag mono">Symfony</span><span class="tag mono">Python</span><span class="tag mono">C / C#</span></div>
+                    </div>
+                    <div class="card stack-card tilt reveal reveal-scale" data-delay="3">
+                        <div class="card__head mono">bases de données</div>
+                        <div class="tags"><span class="tag mono">MySQL</span><span class="tag mono">MariaDB</span><span class="tag mono">PostgreSQL</span><span class="tag mono">Oracle</span><span class="tag mono">SQLite</span><span class="tag mono">MongoDB</span></div>
+                    </div>
+                    <div class="card stack-card tilt reveal reveal-scale" data-delay="4">
+                        <div class="card__head mono">devops &amp; outils</div>
+                        <div class="tags"><span class="tag mono">Git</span><span class="tag mono">GitHub</span><span class="tag mono">GitLab</span><span class="tag mono">Docker</span><span class="tag mono">Kubernetes</span><span class="tag mono">Jira</span><span class="tag mono">Trello</span><span class="tag mono">Confluence</span><span class="tag mono">Slack</span></div>
+                    </div>
+                    <div class="card stack-card tilt reveal reveal-scale" data-delay="5">
+                        <div class="card__head mono">méthodes &amp; design</div>
+                        <div class="tags"><span class="tag mono">Agile / Scrum</span><span class="tag mono">UML</span><span class="tag mono">MVC / MVVM</span><span class="tag mono">Illustrator</span><span class="tag mono">Photoshop</span><span class="tag mono">Canva</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== WORK ==================== -->
+        <section class="section section--alt" id="work">
+            <div class="container">
+                <div class="section__head reveal reveal-blur" data-ghost="04">
+                    <span class="section__index mono">04</span>
+                    <div>
+                        <h2 class="section__title">Projets</h2>
+                        <p class="section__sub mono">projets éducatifs · hackathon · GitHub</p>
+                    </div>
+                </div>
+
+                <div class="work__grid">
+                    <article class="card work-card tilt reveal reveal-left">
+                        <div class="work-card__head">
+                            <span class="work-card__icon mono">▲</span>
+                            <span class="work-card__status mono"><span class="pulse-dot"></span>hackathon 48h</span>
+                        </div>
+                        <h3 class="work-card__title">Jeu vidéo Ghost Shape</h3>
+                        <p class="work-card__desc">
+                            Conception et développement d'un jeu 2D avec 3 niveaux complets, logique de
+                            collision, et boucle de jeu stable avec une moyenne de 60 FPS. Réalisé en 48
+                            heures dans le cadre d'un hackathon.
+                        </p>
+                        <div class="tags"><span class="tag mono">C#</span><span class="tag mono">Unity</span><span class="tag mono">Game Dev</span></div>
+                    </article>
+
+                    <article class="card work-card tilt reveal reveal-right" data-delay="1">
+                        <div class="work-card__head">
+                            <span class="work-card__icon mono">▤</span>
+                            <span class="work-card__status mono"><span class="t-ok">✓</span>sur GitHub</span>
+                        </div>
+                        <h3 class="work-card__title">PFA : Site e-commerce d'accessoires</h3>
+                        <p class="work-card__desc">
+                            Site e-commerce complet avec espace administrateur et utilisateur : gestion de
+                            +150 produits, 40 commandes simulées, et 5 rôles utilisateurs distincts. Système
+                            de panier et paiement simulé pour tests.
+                        </p>
+                        <div class="tags"><span class="tag mono">MongoDB</span><span class="tag mono">Express</span><span class="tag mono">React</span><span class="tag mono">Node.js</span></div>
+                        <a href="https://github.com/wafamzoughi/PFA-e_commerce" target="_blank" rel="noopener" class="mono-link" style="margin-top:.75rem;display:inline-block;">
+                            <span class="mono-link__tag">gh</span> github.com/wafamzoughi/PFA-e_commerce
+                        </a>
+                    </article>
+
+                    <article class="card work-card tilt reveal reveal-left" data-delay="2">
+                        <div class="work-card__head">
+                            <span class="work-card__icon mono">⇄</span>
+                            <span class="work-card__status mono"><span class="t-ok">✓</span>sur GitHub</span>
+                        </div>
+                        <h3 class="work-card__title">Mini Projet Commercial</h3>
+                        <p class="work-card__desc">
+                            Création d'un mini-site e-commerce sous Symfony, avec authentification sécurisée
+                            et interface utilisateur responsive.
+                        </p>
+                        <div class="tags"><span class="tag mono">Symfony</span><span class="tag mono">PHP</span></div>
+                        <a href="https://github.com/wafamzoughi/Vente-accessoires" target="_blank" rel="noopener" class="mono-link" style="margin-top:.75rem;display:inline-block;">
+                            <span class="mono-link__tag">gh</span> github.com/wafamzoughi/Vente-accessoires
+                        </a>
+                    </article>
+
+                    <article class="card work-card tilt reveal reveal-right" data-delay="3">
+                        <div class="work-card__head">
+                            <span class="work-card__icon mono">◎</span>
+                            <span class="work-card__status mono"><span class="t-ok">✓</span>sur GitHub</span>
+                        </div>
+                        <h3 class="work-card__title">Mini plateforme Magasin d'optique</h3>
+                        <p class="work-card__desc">
+                            Application de gestion pour un magasin d'optique, avec gestion des utilisateurs.
+                        </p>
+                        <div class="tags"><span class="tag mono">MongoDB</span><span class="tag mono">Express</span><span class="tag mono">Angular</span><span class="tag mono">Node.js</span></div>
+                        <a href="https://github.com/wafamzoughi/Magasin_optique" target="_blank" rel="noopener" class="mono-link" style="margin-top:.75rem;display:inline-block;">
+                            <span class="mono-link__tag">gh</span> github.com/wafamzoughi/Magasin_optique
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Marquee band -->
+        <div class="marquee-wrap" aria-hidden="true">
+            <div class="marquee marquee--reverse">
+                <div class="marquee__track">
+                    <span class="marquee__group">
+                        <span class="marquee__item">Dev</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Test</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Prod</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">+200 produits testés</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">+10 vendeurs</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">5 rôles utilisateurs</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">CRUD complet</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Material Design</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Clean Code</span><span class="marquee__sep">◆</span>
+                    </span>
+                    <span class="marquee__group">
+                        <span class="marquee__item">Dev</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Test</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Prod</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">+200 produits testés</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">+10 vendeurs</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">5 rôles utilisateurs</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">CRUD complet</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Material Design</span><span class="marquee__sep">◆</span>
+                        <span class="marquee__item">Clean Code</span><span class="marquee__sep">◆</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== EDUCATION ==================== -->
+        <section class="section" id="education">
+            <div class="container">
+                <div class="section__head reveal reveal-blur" data-ghost="05">
+                    <span class="section__index mono">05</span>
+                    <div>
+                        <h2 class="section__title">Formation &amp; Certifications</h2>
+                        <p class="section__sub mono">diplômes · certifications · langues</p>
+                    </div>
+                </div>
+
+                <div class="edu__grid">
+                    <div class="card edu-card reveal">
+                        <div class="card__head mono"><span class="t-ok">●</span> diplômes et formations</div>
+                        <div class="edu__item">
+                            <h3 class="edu__title">Cycle ingénieur en Génie Logiciel</h3>
+                            <p class="edu__org">École supérieure polytechnique privée, Monastir</p>
+                            <p class="edu__meta mono">2022 · 2025</p>
+                        </div>
+                        <div class="edu__item">
+                            <h3 class="edu__title">Licence en Technologie et Ingénierie de Transport</h3>
+                            <p class="edu__org">Institut Supérieur du Transport et de la Logistique, Sousse</p>
+                            <p class="edu__meta mono">2019 · 2022</p>
+                        </div>
+                        <div class="edu__item">
+                            <h3 class="edu__title">Baccalauréat Scientifique</h3>
+                            <p class="edu__org">Lycée Jeune Fille, Monastir</p>
+                            <p class="edu__meta mono">2018 · 2019</p>
+                        </div>
+                    </div>
+
+                    <div class="card edu-card reveal" data-delay="1">
+                        <div class="card__head mono"><span class="t-ok">●</span> certifications</div>
+                        <div class="edu__item">
+                            <h3 class="edu__title">JAVA</h3>
+                            <p class="edu__meta mono">Certiport · 2024</p>
+                        </div>
+                        <div class="edu__item">
+                            <h3 class="edu__title">Database</h3>
+                            <p class="edu__meta mono">Certiport · 2024</p>
+                        </div>
+                        <div class="edu__item">
+                            <h3 class="edu__title">Développement des Jeux Unity</h3>
+                            <p class="edu__meta mono">Horizon Ed · 2024</p>
+                        </div>
+                        <div class="edu__item">
+                            <h3 class="edu__title">BigData</h3>
+                            <p class="edu__meta mono">IBM · 2025</p>
+                        </div>
+                    </div>
+
+                    <div class="card edu-card reveal" data-delay="2">
+                        <div class="card__head mono"><span class="t-ok">●</span> langues</div>
+                        <div class="edu__lang mono">
+                            <span>Arabe</span><span class="t-ok">Langue maternelle</span>
+                        </div>
+                        <div class="edu__lang mono">
+                            <span>Français</span><span class="t-ok">Courant</span>
+                        </div>
+                        <div class="edu__lang mono">
+                            <span>Anglais</span><span class="t-ok">Professionnel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Resume CTA -->
+                <div class="resume-cta reveal">
+                    <div class="resume-cta__copy">
+                        <p class="mono resume-cta__label"><span class="t-ok">●</span> cv</p>
+                        <h3 class="resume-cta__title">Le parcours complet, en un document.</h3>
+                        <p class="resume-cta__sub">PDF · une page</p>
+                    </div>
+                    <a href="assets/pdf/CV_WafaMzoughi.pdf" class="btn btn--primary" download>
+                        Télécharger le CV
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 21h16"/></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== CONTACT ==================== -->
+        <section class="section section--alt" id="contact">
+            <div class="container">
+                <div class="section__head reveal reveal-blur" data-ghost="06">
+                    <span class="section__index mono">06</span>
+                    <div>
+                        <h2 class="section__title">Contact</h2>
+                        <p class="section__sub mono">canaux · toujours ouverts</p>
+                    </div>
+                </div>
+
+                <div class="contact__grid">
+                    <a href="mailto:wafamzoughi98@gmail.com" class="card contact-card tilt reveal reveal-scale">
+                        <div class="contact-card__top">
+                            <span class="work-card__icon mono">@</span>
+                            <svg class="contact-card__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+                        </div>
+                        <h3 class="contact-card__title">Email</h3>
+                        <p class="contact-card__sub mono">wafamzoughi98@gmail.com</p>
+                        <p class="contact-card__desc">Contact direct pour toute opportunité en développement mobile / full-stack.</p>
+                    </a>
+
+                    <a href="tel:+21627820895" class="card contact-card tilt reveal reveal-scale" data-delay="1">
+                        <div class="contact-card__top">
+                            <span class="work-card__icon mono">☎</span>
+                            <svg class="contact-card__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+                        </div>
+                        <h3 class="contact-card__title">Téléphone</h3>
+                        <p class="contact-card__sub mono">27 820 895</p>
+                        <p class="contact-card__desc">Disponible pour un appel ou un entretien.</p>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/mzoughi-wafa-2121b6266/" target="_blank" rel="noopener" class="card contact-card tilt reveal reveal-scale" data-delay="2">
+                        <div class="contact-card__top">
+                            <span class="work-card__icon mono">in</span>
+                            <svg class="contact-card__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+                        </div>
+                        <h3 class="contact-card__title">LinkedIn</h3>
+                        <p class="contact-card__sub mono">linkedin.com/in/mzoughi-wafa</p>
+                        <p class="contact-card__desc">Parcours professionnel et messagerie directe.</p>
+                    </a>
+
+                    <a href="https://github.com/wafamzoughi" target="_blank" rel="noopener" class="card contact-card tilt reveal reveal-scale" data-delay="3">
+                        <div class="contact-card__top">
+                            <span class="work-card__icon mono">gh</span>
+                            <svg class="contact-card__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+                        </div>
+                        <h3 class="contact-card__title">GitHub</h3>
+                        <p class="contact-card__sub mono">github.com/wafamzoughi</p>
+                        <p class="contact-card__desc">Code source des projets personnels et scolaires.</p>
+                    </a>
+                </div>
+
+                <p class="contact__note mono reveal" data-delay="2">
+                    <span class="pulse-dot" aria-hidden="true"></span> basée à Monastir, Tunisie · ouverte à toute nouvelle opportunité
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <span class="brand__dot" aria-hidden="true"></span>
+                <span class="brand__name">Wafa</span><span class="brand__acc"> Mzoughi</span>
+            </div>
+            <p class="footer__status mono"><span class="pulse-dot" aria-hidden="true"></span> disponible · © <span id="year">2026</span> Wafa Mzoughi</p>
+            <div class="footer__nav mono">
+                <a href="#home">haut</a>
+                <span class="t-dim">/</span>
+                <a href="assets/pdf/CV_WafaMzoughi.pdf" download>cv.pdf</a>
+                <span class="t-dim">/</span>
+                <a href="https://github.com/wafamzoughi" target="_blank" rel="noopener">github</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
